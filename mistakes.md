@@ -5,6 +5,8 @@
   `print("%p\n", &p);`)
 * `std::unique_ptr<T>` if that `class T` (e.g. `QWidget`) is owned by a
   parent that will delete it
+* Forget to use `extern "C"` when mixing C and C++ code -> weird linker
+  errors...
 
 # bash
 
